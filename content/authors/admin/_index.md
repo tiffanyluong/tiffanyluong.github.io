@@ -44,7 +44,7 @@ profiles:
   - icon: academicons/google-scholar
     url: https://scholar.google.com/citations?user=0e7VJacAAAAJ
   - icon: hero/arrow-down-tray
-    url: 'uploads/cv_tiffanyluong_2024-12.pdf'
+    url: 'uploads/cv_tiffanyluong_2024_12.pdf'
   # - icon: academicons/orcid
   #   url: https://orcid.org/
 
