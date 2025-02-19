@@ -1,0 +1,46 @@
+{{ $dir := .Get "gallery_dir" }}
+<ul class="image-gallery">
+{{ $files := readDir (printf "assets%s" $dir) }}
+{{ range $files }}
+  {{ if ne .Name ".DS_Store" }}
+    {{ $image := resources.Get (printf "%s/%s" $dir .Name) }}
+    {{ $imageUrl := printf "%s/%s" $dir .Name }}
+    {{ $imageName := index (split .Name ".") 0 }}
+    <li>
+      <a href="{{ $image.RelPermalink }}" title="{{ $imageName }}">
+        {{ $thumbnail := $image.Fill "300x300" }}
+        <img src="{{ $thumbnail.RelPermalink }}" alt="{{ $imageName }}" />
+      </a>
+    </li>
+  {{ end }}
+{{ end }}
+</ul>
+
+<style>
+.image-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+}
+.image-gallery li {
+  margin: 0;
+}
+.image-gallery img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.image-gallery a[data-fancybox] img{
+  height:200px;
+  width:auto;
+  max-width:inherit;
+  display:inherit;
+  margin:0;
+  padding:1px;
+  box-shadow:none;
+  vertical-align:inherit
+}
+</style>

@@ -1,0 +1,65 @@
+{{ $item := .item }}
+{{ $widget := .widget }}
+{{ $link := .link }}
+{{ $target := .target }}
+{{ $has_attachments := partial "functions/has_attachments" $item }}
+
+{{/* Get summary. */}}
+{{ $summary := "" }}
+{{ if $item.Params.summary }}
+  {{ $summary = $item.Params.summary | markdownify | emojify }}
+{{ else if .Params.abstract }}
+  {{ $summary = .Params.abstract | markdownify | emojify | truncate (site.Params.abstract_length | default 135) }}
+{{ else if $item.Summary }}
+  {{ $summary = $item.Summary }}
+{{ end }}
+
+{{ $resource := ($item.Resources.ByType "image").GetMatch "*compact*" }}
+{{ $js_tag_classes := delimit (apply (apply $item.Params.tags "replace" "." " " "-") "printf" "js-id-%s" ".") " " }}
+
+
+<div class="project-card project-item isotope-item {{ $js_tag_classes | safeHTMLAttr }}">
+  <div class="card stream-item">
+    <div class="col col-sm-12 col-lg-8 col-md-7 ml-3 media-body">
+      <div class="stream-meta article-metadata article-date card-article-date">
+        {{ if eq $item.Type "project" }}
+        <div>
+          <span>
+            {{ partial "functions/get_event_dates" $item }}
+          </span>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+    <div class="card-frame">
+      {{ $resource := ($item.Resources.ByType "image").GetMatch "*compact*" }}
+      {{ with $resource }}
+      <!-- {{ $image := .Resize "550x" }} -->
+      <a href="{{ $link }}" {{ $target | safeHTMLAttr }} class="card-image media.stream-item img-hover-zoom"> 
+        <!-- hover-overlay -->
+        <img src="{{ $image.RelPermalink }}" alt="{{ $item.Title }}" class="custom-img img-responsive media.stream-item" loading="lazy">
+      </a>
+      {{ end }}
+    </div>
+    <div class="card-text">
+      <div class="card-title">
+        <h4><a href="{{ $link }}" {{ $target | safeHTMLAttr }}>{{ $item.Title | markdownify | emojify }}</a></h4>
+      </div>
+      {{ with $summary }}
+      <div class="article-style">
+        <p>{{ . }}</p>
+      </div>
+      {{ end }}
+
+
+      <!-- {{ partial "page_metadata" (dict "page" $item "is_list" 1) }} -->
+
+      {{ if $has_attachments }}
+      <div class="btn-links">
+        {{ partial "page_links" (dict "page" $item "is_list" 1) }}
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</div>
+

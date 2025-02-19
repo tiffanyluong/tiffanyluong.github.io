@@ -1,0 +1,1 @@
+This website was built using the [Hugo Blox Academic CV Theme](https://github.com/HugoBlox/theme-academic-cv). 
