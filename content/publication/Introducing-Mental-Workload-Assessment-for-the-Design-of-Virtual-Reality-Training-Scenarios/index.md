@@ -8,14 +8,6 @@ authors:
 date: "2020-03-06T00:00:00Z"
 doi: ""
 
-author_notes:
-- ""
-- ""
-- ""
-- ""
-- ""
-- ""
-
 # Schedule page publish date (NOT publication's date).
 publishDate: "2020-03-07T00:00:00Z"
 
@@ -46,7 +38,6 @@ tags:
 # - Pilots Training
 featured: false
 
-
 links:
 - name: DOI
   url: https://doi.org/10.1109/VR46266.2020.1581086856229
@@ -55,16 +46,7 @@ links:
 # - name: Talk
 #   url: https://youtu.be/pSdAXn08hfA?t=2478
 url_pdf: https://hal.archives-ouvertes.fr/hal-03007485/document
-url_code: 
-url_dataset: ''
-url_poster: ''
-url_project: ''
-url_slides: ''
-url_source: ''
 url_video: 'https://youtu.be/pG6ypvK76Y0' 
-
-
-
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 

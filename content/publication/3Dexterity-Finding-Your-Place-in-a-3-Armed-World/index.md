@@ -62,12 +62,6 @@ links:
 - name: DOI
   url: https://doi.org/10.1109/VRW50115.2020.00112
 url_pdf: https://hal.inria.fr/hal-03066625/document
-url_code: 
-url_dataset: ''
-url_poster: ''
-url_project: ''
-url_slides: ''
-url_source: ''
 url_video: 'https://youtu.be/pj9tBaTaPMk'
 
 # Featured image

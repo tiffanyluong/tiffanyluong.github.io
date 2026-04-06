@@ -1,0 +1,9 @@
+/* Light green hover on PDF/Cite/Video/DOI attachment links */
+.hb-attachment-link:hover {
+  color: #a7f3d0; /* emerald-200 */
+}
+
+/* Green hover on publication titles (full publications list) */
+.pub-list-item a.underline:hover {
+  color: #6ee7b7; /* emerald-300 */
+}

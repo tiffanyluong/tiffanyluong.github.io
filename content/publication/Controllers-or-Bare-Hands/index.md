@@ -1,5 +1,5 @@
 ---
-title: "Controllers or Bare Hands? A Controlled Evaluation of Input Techniques \\on Interaction Performance and Exertion in Virtual Reality"
+title: "Controllers or Bare Hands? A Controlled Evaluation of Input Techniques on Interaction Performance and Exertion in Virtual Reality"
 authors:
 - admin
 - Yi Fei Cheng
@@ -8,14 +8,6 @@ authors:
 - Christian Holz
 date: "2023-10-09T00:00:00Z"
 doi: ""
-
-author_notes:
-- ""
-- ""
-- ""
-- ""
-- ""
-- ""
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2023-10-23T00:00:00Z"
@@ -43,23 +35,13 @@ tags:
 - Subjective Ratings
 - Human Behavior
 - Motion Analysis
-featured: false
-
+featured: true
 
 links:
 - name: DOI
   url: https://doi.org/10.1109/TVCG.2023.3320211
 url_pdf: https://siplab.org/papers/tvcg2023-VR_controllers_or_bare_hands.pdf
-url_code: 
-url_dataset: ''
-url_poster: ''
-url_project: ''
-url_slides: ''
-url_source: ''
 url_video: https://www.youtube.com/watch?v=Ws2yjV__9SI
-
-
-
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 

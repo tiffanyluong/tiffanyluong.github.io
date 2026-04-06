@@ -56,12 +56,6 @@ links:
 - name: DOI
   url: https://doi.org/10.1109/VR.2019.8797848
 url_pdf: https://hal.inria.fr/hal-02284129v2/document
-url_code: 
-url_dataset: ''
-url_poster: ''
-url_project: ''
-url_slides: ''
-url_source: ''
 url_video: 'https://youtu.be/cX2RG3UDP_A'
 
 # Featured image

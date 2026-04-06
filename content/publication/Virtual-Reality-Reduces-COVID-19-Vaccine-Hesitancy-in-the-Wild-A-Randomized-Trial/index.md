@@ -11,14 +11,6 @@ authors:
 date: "2022-02-06T00:00:00Z"
 doi: ""
 
-author_notes:
-- ""
-- ""
-- ""
-- ""
-- ""
-- ""
-
 # Schedule page publish date (NOT publication's date).
 publishDate: "2022-02-06T00:00:00Z"
 
@@ -54,13 +46,6 @@ links:
 - name: DOI
   url: https://doi.org/10.1038/s41598-022-08120-4
 url_pdf: https://www.nature.com/articles/s41598-022-08120-4.pdf
-url_code: 
-url_dataset: ''
-url_poster: ''
-url_project: ''
-url_slides: ''
-url_source: ''
-url_video: ''
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 

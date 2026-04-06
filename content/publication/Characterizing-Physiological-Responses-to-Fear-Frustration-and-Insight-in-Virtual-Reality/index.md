@@ -6,10 +6,6 @@ authors:
 date: "2022-10-24T00:00:00Z"
 doi: ""
 
-author_notes:
-- ""
-- ""
-
 # Schedule page publish date (NOT publication's date).
 publishDate: "2022-10-24T00:00:00Z"
 
@@ -57,12 +53,6 @@ links:
 # - name: Talk
 #   url: https://youtu.be/QMSR6Xx45g0
 url_pdf: https://siplab.org/papers/tvcg2022-physiological_response_fear_frustration_insight.pdf
-url_code: 
-url_dataset: ''
-url_poster: ''
-url_project: ''
-url_slides: ''
-url_source: ''
 url_video: 'https://www.youtube.com/watch?v=iGp1ajrUnlI'
 
 # Featured image

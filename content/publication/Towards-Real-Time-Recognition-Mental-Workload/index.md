@@ -59,13 +59,6 @@ links:
 - name: Talk
   url: https://youtu.be/gbeXBg-XmHk
 url_pdf: https://hal.archives-ouvertes.fr/hal-03008918/document 
-url_code: 
-url_dataset: ''
-url_poster: ''
-url_project: ''
-url_slides: ''
-url_source: ''
-url_video: ''
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 

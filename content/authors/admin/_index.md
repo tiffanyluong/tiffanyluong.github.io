@@ -24,8 +24,8 @@ role: Research Scientist
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: MIT
-    url: https://www.mit.edu/
+  - name: Perceptual
+    url: https://www.perceptual.ai/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
@@ -44,7 +44,7 @@ profiles:
   - icon: academicons/google-scholar
     url: https://scholar.google.com/citations?user=0e7VJacAAAAJ
   - icon: hero/arrow-down-tray
-    url: 'uploads/cv_tiffanyluong_2024_12.pdf'
+    url: 'uploads/cv_tiffanyluong_2026_04.pdf'
   # - icon: academicons/orcid
   #   url: https://orcid.org/
 
@@ -74,8 +74,8 @@ education:
 
 ## About Me
 
-I am a researcher in Computer Science with a primary focus on understanding user experience and human cognition to enhance human-computer interaction and improve well-being. My research journey mainly revolves around empirical user studies in Virtual Reality (VR) and the use of objective indicators, such as physiological and motion capture features. 
+I am a Research Scientist specializing in human perception and interaction in XR. My work spans empirical user studies — using physiological sensing, motion capture, and gaze tracking to measure user experience, mental workload, and perception — as well as simulation-based research for computer vision and robotics, building synthetic data pipelines and evaluating perception models.
 
-I am currently a Research Scientist jointly at [MIT](https://www.mit.edu/) in the [Probabilistic Computing Lab](https://bcs.mit.edu/), directed by [Vikash Mansinghka](http://probcomp.csail.mit.edu/principal-investigator/), and in the [Quest For Intelligence](https://quest.mit.edu/about/vision-statement) initiative (you can find the leadership details of this project [here](https://quest.mit.edu/about/leadership)). Previously, I worked as a Postdoctoral Researcher at [ETH Zürich](https://ethz.ch/en.html), in Switzerland, in the Sensing, Perception, and Interaction Lab ([SIPLAB](https://siplab.org/)), directed by [Christian Holz](https://www.christianholz.net/). Prior to this, I did my PhD on the topic of Mental Workload exploitation in VR jointly at [INRIA Rennes](https://www.inria.fr/en/inria-centre-rennes-university), in [Anatole Lécuyer](https://people.rennes.inria.fr/Anatole.Lecuyer/)'s group, and in the private institute of research and technologies [b-com](https://b-com.com/en).
+I am currently a Research Scientist at [Perceptual](https://www.perceptual.ai/), a startup working on perception for the physical world. Previously, I was a Research Scientist at [MIT](https://www.mit.edu/) in the [Probabilistic Computing Lab](https://bcs.mit.edu/) and the [Quest For Intelligence](https://quest.mit.edu/about/vision-statement) initiative. Before that, I was a Postdoctoral Researcher at [ETH Zürich](https://ethz.ch/en.html) in the [SIPLAB](https://siplab.org/), directed by [Christian Holz](https://www.christianholz.net/). I did my PhD on Mental Workload in VR jointly at [INRIA Rennes](https://www.inria.fr/en/inria-centre-rennes-university), in [Anatole Lécuyer](https://people.rennes.inria.fr/Anatole.Lecuyer/)'s group, and at [b-com](https://b-com.com/en).
 
 You can find my CV below. Have a nice visit!

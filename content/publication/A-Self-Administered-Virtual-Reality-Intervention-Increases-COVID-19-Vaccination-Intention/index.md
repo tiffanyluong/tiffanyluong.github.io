@@ -11,14 +11,6 @@ authors:
 date: "2021-11-06T00:00:00Z"
 doi: ""
 
-author_notes:
-- ""
-- ""
-- ""
-- ""
-- ""
-- ""
-
 # Schedule page publish date (NOT publication's date).
 publishDate: "2020-11-06T00:00:00Z"
 
@@ -62,13 +54,6 @@ links:
 - name: DOI
   url: https://doi.org/10.1016/j.vaccine.2021.10.004
 url_pdf: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8498751/pdf/main.pdf
-url_code: 
-url_dataset: ''
-url_poster: ''
-url_project: ''
-url_slides: ''
-url_source: ''
-url_video: ''
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 

@@ -8,14 +8,6 @@ authors:
 date: "2019-03-06T00:00:00Z"
 doi: ""
 
-author_notes:
-- ""
-- ""
-- ""
-- ""
-- ""
-- ""
-
 # Schedule page publish date (NOT publication's date).
 publishDate: "2019-03-07T00:00:00Z"
 
@@ -57,12 +49,6 @@ links:
 - name: Talk
   url: https://youtu.be/PlvxhsJRDoQ
 url_pdf: https://hal.inria.fr/hal-02295331/document
-url_code: 
-url_dataset: ''
-url_poster: ''
-url_project: ''
-url_slides: ''
-url_source: ''
 url_video: 'https://youtu.be/lbIDS2o0SgQ'
 
 # Featured image

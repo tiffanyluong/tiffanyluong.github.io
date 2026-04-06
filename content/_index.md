@@ -17,7 +17,7 @@ sections:
       # Show a call-to-action button under your biography? (optional)
       button:
         text: Download CV
-        url: uploads/cv_tiffanyluong_2024_12.pdf
+        url: uploads/cv_tiffanyluong_2026_04.pdf
     design:
       css_class: dark
       background:
@@ -42,6 +42,7 @@ sections:
     design:
       view: article-grid
       columns: 2
+      fill_image: false
   - block: markdown
     id: awards
     content:

@@ -11,14 +11,6 @@ authors:
 date: "2022-10-20T00:00:00Z"
 doi: ""
 
-author_notes:
-- ""
-- ""
-- ""
-- ""
-- ""
-- ""
-
 # Schedule page publish date (NOT publication's date).
 publishDate: "2022-10-20T00:00:00Z"
 
@@ -54,7 +46,6 @@ tags:
 - Supervised Machine Learning
 featured: true
 
-
 links:
 - name: DOI
   url: https://doi.org/10.1109/ISMAR55827.2022.00046
@@ -63,16 +54,7 @@ links:
 - name: Supp
   url: https://siplab.org/papers/ismar2022-cybersickness_study-supplementary.pdf
 url_pdf: https://siplab.org/papers/ismar2022-cybersickness_study.pdf
-url_code: 
-url_dataset: ''
-url_poster: ''
-url_project: ''
-url_slides: ''
-url_source: ''
 url_video: 'https://youtu.be/OUkzCUnxwtc' 
-
-
-
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 

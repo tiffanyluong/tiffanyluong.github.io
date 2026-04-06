@@ -8,14 +8,6 @@ authors:
 date: "2021-09-06T00:00:00Z"
 doi: ""
 
-author_notes:
-- ""
-- ""
-- ""
-- ""
-- ""
-- ""
-
 # Schedule page publish date (NOT publication's date).
 publishDate: "2021-09-30T00:00:00Z"
 
@@ -44,19 +36,12 @@ tags:
 - Mental Workload
 - Presence
 - UX
-featured: true
+featured: false
 
 links:
 - name: DOI
   url: https://doi.org/10.1109/TVCG.2021.3110459
 url_pdf: https://hal.inria.fr/hal-03469058
-url_code: 
-url_dataset: ''
-url_poster: ''
-url_project: ''
-url_slides: ''
-url_source: ''
-url_video: ''
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 

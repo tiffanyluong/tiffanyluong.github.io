@@ -45,12 +45,6 @@ links:
 - name: DOI
   url: https://doi.org/10.1109/VR.2018.8446047
 url_pdf: https://hal.inria.fr/hal-01949784/document
-url_code: 
-url_dataset: ''
-url_poster: ''
-url_project: ''
-url_slides: ''
-url_source: ''
 url_video: 'https://youtu.be/4O5AFa02Raw'
 
 # Featured image

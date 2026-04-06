@@ -9,14 +9,6 @@ authors:
 date: "2022-10-17T00:00:00Z"
 doi: ""
 
-author_notes:
-- ""
-- ""
-- ""
-- ""
-- ""
-- ""
-
 # Schedule page publish date (NOT publication's date).
 publishDate: "2022-10-23T00:00:00Z"
 
@@ -52,23 +44,13 @@ tags:
 # - Pilots Training
 featured: false
 
-
 links:
 - name: DOI
   url: https://doi.org/10.1109/ISMAR55827.2022.00029
 - name: Talk
   url: https://www.youtube.com/watch?v=sFl3vDB7i-U
 url_pdf: https://siplab.org/papers/ismar2022-comfortable_user_interfaces.pdf
-url_code: 
-url_dataset: ''
-url_poster: ''
-url_project: ''
-url_slides: ''
-url_source: ''
 url_video: 'https://www.youtube.com/watch?v=DMuly2ABZQk' 
-
-
-
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
